@@ -1,13 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
-    <meta charset="UTF-8">
-    <title>Schedule</title>
+  <meta charset="utf-8">
+  <title>Schedule</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" href="/assets/dist/style.css">
 </head>
-<body>
-<p>Add button on click of button call schedule.php and pass current date in YYYY-MM-DD format as GET paramter 'date'. </p>
-<p>Parse JSON response and create weekly calendar for each square showing date, different background color depneding on whether this day status is active, and description.
-    If status is active description should be active link if not plain text</p>
-<p>Calendar should be shown as horizontal line of boxes which resize on different screen sizes and resolutions</p>
+<body class="text-center">
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <button class="btn btn-primary btn-lg" id="show">Show Schedule</button>
+    </div>
+    <div id="root" class="col-xs-12"></div>
+  </div>
+</div>
+<script src="/assets/dist/script.js"></script>
 </body>
 </html>
