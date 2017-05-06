@@ -1,6 +1,6 @@
 <?php
 //date in 'YYYY-MM-DD' format
-$_GET['date'] = '2017-04-29';
+//$_GET['date'] = '2017-04-29';
 $ret = [];
 $statuses = [
     ['active' => 1, 'description' => 'Open'],
