@@ -7,7 +7,7 @@
     function handleClick() {
       let date = new Date();
 
-      $.get("/schedule.php", {
+      $.get("./schedule.php", {
           date: formatDate(date)
         },
         function(data) {
