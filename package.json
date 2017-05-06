@@ -1,0 +1,25 @@
+{
+  "name": "sellmycar",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.html",
+  "license": "Closed license",
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-watch": "^4.3.11",
+    "jquery": "^3.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https:github.com/m8ig/sellmycar"
+  },
+  "author": "Mike Ignatev <mike@sitio.ru> (https://github.com/m8ig)",
+  "bugs": {
+    "url": "https://github.com/m8ig/sellmycar/issues"
+  },
+  "homepage": "https://github.com/m8ig/sellmycar"
+}
